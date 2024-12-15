@@ -8,7 +8,7 @@ import {
   NavbarMenuToggle,
   NavbarMenu,
   NavbarMenuItem,
-  RangeCalendar,
+  
   Link,
 } from "@nextui-org/react";
 import {
@@ -91,7 +91,7 @@ function MyNav() {
           
 
           <NavbarItem>
-            <Button color="primary"> Contact Now</Button>
+            <Button color="primary"> MyFeedback for business</Button>
           </NavbarItem>
         </NavbarContent>
         <div className="sm:hidden">
