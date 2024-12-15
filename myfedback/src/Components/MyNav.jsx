@@ -8,34 +8,23 @@ import {
   NavbarMenuToggle,
   NavbarMenu,
   NavbarMenuItem,
-  
+  Button,
   Link,
 } from "@nextui-org/react";
-import {
-  Dropdown,
-  DropdownTrigger,
-  DropdownMenu,
-  DropdownItem,
-  Button,
-} from "@nextui-org/react";
-
-
-import { UserIcon, ChevronDownIcon } from "@heroicons/react/24/outline";
-
 
 function MyNav() {
- 
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const menuitems = [
-    "Eat & Drink",
-    "Club",
-    "Thinks To do",
-    "Shoping",
-    "Account",
-    "Contact",
+    "Restaurants",
+    "Hotels",
+    "Home services",
+    "Shopping",
+    "Car location",
+    "Beauty & Spa",
   ];
+
   return (
-    <section>
+    <section className="py-8">
       <Navbar
         isMenuOpen={isMenuOpen}
         onMenuOpenChange={setIsMenuOpen}
@@ -48,57 +37,48 @@ function MyNav() {
         </NavbarContent>
         <NavbarContent className="sm:hidden">
           <NavbarBrand>
-            <img src="./title.svg" alt="" className="w-44" />{" "}
+            <img src="./logo.png" alt="" className="w-44" />{" "}
           </NavbarBrand>
         </NavbarContent>
         <NavbarContent className=" hidden sm:flex gap-4 justify-center w-full ">
           <NavbarBrand>
-            <img src="./title.svg" alt="" />{" "}
+            <img
+              className="flex justify-center items-center"
+              src="./logo.png"
+              alt=""
+            />{" "}
           </NavbarBrand>
-          <NavbarItem>
-            <Link className="text-black ">Eat & Drink</Link>
+          <NavbarContent>
+            <NavbarItem>
+              <div className="border rounded-full px-2 py-2 overflow-hidden">
+                  <div className="flex justify-center items-center flex-row gap-3 ">
+                  <p >restaurant, hotel, service....</p>
+                  <div className="border border-l bg-gray-400">.</div>
+                  <p>Singapour...</p>
+                  <div className="flex justify-center items-center bg-[#1677BD] rounded-full w-10 h-10 mx-auto">
+                     <img className=" w-5 h-5 " src="./vector.png" alt="" />
+                  </div>
+               </div>
+                 
+              </div>
+            </NavbarItem>
+          </NavbarContent>
+          <NavbarItem className=" hidden md:block justify-center items-center ">
+            <img src="./world.png" alt="" />
           </NavbarItem>
           <NavbarItem>
-            <Link className="text-black">
+            <Button className="bg-[#1E1E1E] text-white rounded-full">
               {" "}
-              Club{" "}
-              <sup className="text-white text-xs rounded-full px-2 py-1 bg-[#0E8BFF]">
-                {" "}
-                +HOT
-              </sup>
-            </Link>
-          </NavbarItem>
-          <NavbarItem>
-            <Dropdown>
-              <DropdownTrigger>
-                <Button variant="none">
-                  Thinks to do{" "}
-                  <ChevronDownIcon className="text-[#0E8BFF] h-4 w-4" />{" "}
-                </Button>
-              </DropdownTrigger>
-              <DropdownMenu aria-label="Static Actions">
-                <DropdownItem key="new"> Water sports</DropdownItem>
-                <DropdownItem key="copy"> Day Parties</DropdownItem>
-                <DropdownItem key="edit"> Outdoors</DropdownItem>
-                <DropdownItem key="edit"> Rentals</DropdownItem>
-              </DropdownMenu>
-            </Dropdown>
-          </NavbarItem>
-          <NavbarItem className="foreground">
-            <img src="./Shoping.svg" alt="" />
-          </NavbarItem>
-
-          
-
-          <NavbarItem>
-            <Button color="primary"> MyFeedback for business</Button>
+              MyFeedback for busines
+            </Button>
           </NavbarItem>
         </NavbarContent>
+
         <div className="sm:hidden">
           <NavbarContent className="w-full">
             <NavbarItem className="hidden lg:flex "></NavbarItem>
             <NavbarItem>
-              <img src="./Shoping.svg" alt="" />
+              <img src="./world.png" alt="" />
             </NavbarItem>
           </NavbarContent>
 
