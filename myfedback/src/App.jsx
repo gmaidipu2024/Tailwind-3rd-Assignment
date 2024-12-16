@@ -1,6 +1,7 @@
 
 import './App.css'
 import Carousel from './Components/Carousel'
+import Discover from './Components/Discover'
 import Footer from './Components/Footer'
 import Items from './Components/Items'
 import MyNav from './Components/MyNav'
@@ -16,6 +17,7 @@ function App() {
     <Items/>
     <Carousel/>
     <Trends/>
+    <Discover/>
     <Footer/>
     
 
