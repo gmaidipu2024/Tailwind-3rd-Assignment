@@ -8,6 +8,7 @@ import Footer from './Components/Footer'
 import Items from './Components/Items'
 import Map from './Components/Map'
 import MyNav from './Components/MyNav'
+import Page3 from './Components/Page3'
 import Trends from './Components/Trands'
 
 
@@ -16,14 +17,15 @@ function App() {
 
   return (
     <>
-    <MyNav/>
-    {/* <Items/>
+    {/* <MyNav/>
+    <Items/>
     <Carousel/>
     <Trends/>
     <Discover/>
     <Activities/>
     <Footer/> */}
-    <Map/>
+    
+    <Page3/>
     
 
   

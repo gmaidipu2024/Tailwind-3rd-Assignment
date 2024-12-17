@@ -25,6 +25,7 @@ function Footer() {
 
   return (
     <footer className=" py-12 ">
+      <hr className="py-3"/>
       <div className=" container mx-auto overflow-hidden grid grid-cols-1  md:grid-cols-1  lg:grid-cols-3 items-start justify-center gap-12 px-20 ">
         <div className="grid grid-cols-2 justify-center md:grid-cols-4 gap-32 mx-auto ">
           <div className="text-center md:text-start">
