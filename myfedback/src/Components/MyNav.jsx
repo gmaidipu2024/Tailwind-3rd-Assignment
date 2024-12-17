@@ -51,15 +51,14 @@ function MyNav() {
           <NavbarContent>
             <NavbarItem>
               <div className="border rounded-full px-2 py-2 overflow-hidden">
-                  <div className="flex justify-center items-center flex-row gap-3 ">
-                  <p >restaurant, hotel, service....</p>
+                <div className="flex justify-center items-center flex-row gap-3 ">
+                  <p>restaurant, hotel, service....</p>
                   <div className="border border-l bg-gray-400">.</div>
                   <p>Singapour...</p>
                   <div className="flex justify-center items-center bg-[#1677BD] rounded-full w-10 h-10 mx-auto">
-                     <img className=" w-5 h-5 " src="./vector.png" alt="" />
+                    <img className=" w-5 h-5 " src="./vector.png" alt="" />
                   </div>
-               </div>
-                 
+                </div>
               </div>
             </NavbarItem>
           </NavbarContent>

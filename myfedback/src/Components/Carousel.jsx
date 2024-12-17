@@ -1,5 +1,5 @@
 import { Button } from "@nextui-org/react";
-import {React, useState } from "react";
+import { React, useState } from "react";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 
 function Carousel() {
@@ -84,10 +84,14 @@ function Carousel() {
             </button>
 
             <div className="flex flex-col lg:flex-row items-center justify-center py-10  gap-6 px-4 ">
-              {/* div 1 */} 
+              {/* div 1 */}
               <div className="w-fit lg:w-1/2 bg-white rounded-3xl mx-auto ">
-                <img className="w-full mx-auto" src={currentSlider.imgaes} alt="" />
-                
+                <img
+                  className="w-full mx-auto"
+                  src={currentSlider.imgaes}
+                  alt=""
+                />
+
                 <h2 className="text-md lg:text-4xl font-bold lg:w-[50%] text-start leading-tight py-2 mb-2 ml-4">
                   {currentSlider.heading}
                 </h2>
@@ -97,24 +101,25 @@ function Carousel() {
                 </p>
 
                 <div className="flex  gap-2 mb-2 ml-4 ">
-                  
                   {TagData.map((data, i) => (
                     <div key={i} className="flex items-center gap-2 ">
                       <img src={data.imgs} alt="" />
                     </div>
                   ))}
-                  
+
                   <div className="py-4 ">
                     <p> 5.0 (8/6 reviews)</p>
                   </div>
-
                 </div>
-
               </div>
-              
+
               <div className="w-fit lg:w-1/2 bg-white rounded-3xl mx-auto ">
-                <img className="w-full mx-auto" src={currentSlider.imgaes} alt="" />
-                
+                <img
+                  className="w-full mx-auto"
+                  src={currentSlider.imgaes}
+                  alt=""
+                />
+
                 <h2 className="text-md lg:text-4xl font-bold lg:w-[50%] text-start leading-tight py-2 mb-2 ml-4">
                   {currentSlider.heading}
                 </h2>
@@ -124,24 +129,25 @@ function Carousel() {
                 </p>
 
                 <div className="flex  gap-2 mb-2 ml-4 ">
-                  
                   {TagData.map((data, i) => (
                     <div key={i} className="flex items-center gap-2 ">
                       <img src={data.imgs} alt="" />
                     </div>
                   ))}
-                  
+
                   <div className="py-4 ">
                     <p> 5.0 (8/6 reviews)</p>
                   </div>
-
                 </div>
-
               </div>
 
               <div className="w-fit lg:w-1/2 bg-white rounded-3xl mx-auto ">
-                <img className="w-full mx-auto" src={currentSlider.imgaes} alt="" />
-                
+                <img
+                  className="w-full mx-auto"
+                  src={currentSlider.imgaes}
+                  alt=""
+                />
+
                 <h2 className="text-md lg:text-4xl font-bold lg:w-[50%] text-start leading-tight py-2 mb-2 ml-4">
                   {currentSlider.heading}
                 </h2>
@@ -151,24 +157,25 @@ function Carousel() {
                 </p>
 
                 <div className="flex  gap-2 mb-2 ml-4 ">
-                  
                   {TagData.map((data, i) => (
                     <div key={i} className="flex items-center gap-2 ">
                       <img src={data.imgs} alt="" />
                     </div>
                   ))}
-                  
+
                   <div className="py-4 ">
                     <p> 5.0 (8/6 reviews)</p>
                   </div>
-
                 </div>
-
               </div>
 
               <div className="w-fit lg:w-1/2 bg-white rounded-3xl mx-auto ">
-                <img className="w-full mx-auto" src={currentSlider.imgaes} alt="" />
-                
+                <img
+                  className="w-full mx-auto"
+                  src={currentSlider.imgaes}
+                  alt=""
+                />
+
                 <h2 className="text-md lg:text-4xl font-bold lg:w-[50%] text-start leading-tight py-2 mb-2 ml-4">
                   {currentSlider.heading}
                 </h2>
@@ -178,22 +185,17 @@ function Carousel() {
                 </p>
 
                 <div className="flex  gap-2 mb-2 ml-4 ">
-                  
                   {TagData.map((data, i) => (
                     <div key={i} className="flex items-center gap-2 ">
                       <img src={data.imgs} alt="" />
                     </div>
                   ))}
-                  
+
                   <div className="py-4 ">
                     <p> 5.0 (8/6 reviews)</p>
                   </div>
-
                 </div>
-
               </div>
-              
-
             </div>
 
             <button

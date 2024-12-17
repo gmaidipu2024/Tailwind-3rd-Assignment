@@ -29,7 +29,9 @@ function Map() {
     <section className="container mx-auto">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-5 px-4">
         <div>
-          <p className="text-[#232323] font-bold md:ml-20">Home / All restaurants</p>
+          <p className="text-[#232323] font-bold md:ml-20">
+            Home / All restaurants
+          </p>
           <div className="flex gap-4 md:ml-20">
             <h2 className="text-[#1E1E1E] text-xl md:text-3xl font-bold">
               best restaurants in singapore
@@ -49,20 +51,24 @@ function Map() {
                     <img className="w-fit  " src="./mp1.png" alt="" />
                   </div>
                   <div className="">
-                    <h2 className="text-[#232323] text-xl  md:text-3xl font-bold py-2 ">The snug</h2>
+                    <h2 className="text-[#232323] text-xl  md:text-3xl font-bold py-2 ">
+                      The snug
+                    </h2>
                     <p className="mb-3 text-[#8F8F8F]">
                       The lorem ipsum is, in printing, a series of meaningless
                       words used temporarily to calibrate a layout.
                     </p>
                     <div className=" flex gap-2 ">
-                     <img  className="w-6 h-6"  src="./star.png" alt="" />
-                     <img  className="w-6 h-6" src="./star.png" alt="" />
-                     <img  className="w-6 h-6" src="./star.png" alt="" />
-                     <img  className="w-6 h-6" src="./star.png" alt="" />
-                     <img  className="w-6 h-6" src="./star3.png" alt="" />
-                     <p> <span className="font-bold">4.5</span>  (654 reviews)</p>
+                      <img className="w-6 h-6" src="./star.png" alt="" />
+                      <img className="w-6 h-6" src="./star.png" alt="" />
+                      <img className="w-6 h-6" src="./star.png" alt="" />
+                      <img className="w-6 h-6" src="./star.png" alt="" />
+                      <img className="w-6 h-6" src="./star3.png" alt="" />
+                      <p>
+                        {" "}
+                        <span className="font-bold">4.5</span> (654 reviews)
+                      </p>
                     </div>
-                    
                   </div>
                 </div>
                 {/* part-2 */}
@@ -71,20 +77,24 @@ function Map() {
                     <img className="w-fit  " src="./mp2.png" alt="" />
                   </div>
                   <div className="">
-                    <h2 className="text-[#232323] text-xl  md:text-3xl font-bold py-2 ">Bottega</h2>
+                    <h2 className="text-[#232323] text-xl  md:text-3xl font-bold py-2 ">
+                      Bottega
+                    </h2>
                     <p className="mb-3 text-[#8F8F8F]">
                       The lorem ipsum is, in printing, a series of meaningless
                       words used temporarily to calibrate a layout.
                     </p>
                     <div className=" flex gap-2 ">
-                     <img  className="w-6 h-6"  src="./star.png" alt="" />
-                     <img  className="w-6 h-6" src="./star.png" alt="" />
-                     <img  className="w-6 h-6" src="./star.png" alt="" />
-                     <img  className="w-6 h-6" src="./star.png" alt="" />
-                     <img  className="w-6 h-6" src="./star.png" alt="" />
-                     <p> <span className="font-bold">5.0</span>  (654 reviews)</p>
+                      <img className="w-6 h-6" src="./star.png" alt="" />
+                      <img className="w-6 h-6" src="./star.png" alt="" />
+                      <img className="w-6 h-6" src="./star.png" alt="" />
+                      <img className="w-6 h-6" src="./star.png" alt="" />
+                      <img className="w-6 h-6" src="./star.png" alt="" />
+                      <p>
+                        {" "}
+                        <span className="font-bold">5.0</span> (654 reviews)
+                      </p>
                     </div>
-                    
                   </div>
                 </div>
                 {/* part-3 */}
@@ -93,20 +103,24 @@ function Map() {
                     <img className="w-fit  " src="./mp3.png" alt="" />
                   </div>
                   <div className="">
-                    <h2 className="text-[#232323] text-xl  md:text-3xl font-bold py-2 ">Little Shucker</h2>
+                    <h2 className="text-[#232323] text-xl  md:text-3xl font-bold py-2 ">
+                      Little Shucker
+                    </h2>
                     <p className="mb-3 text-[#8F8F8F]">
                       The lorem ipsum is, in printing, a series of meaningless
                       words used temporarily to calibrate a layout.
                     </p>
                     <div className=" flex gap-2 ">
-                     <img  className="w-6 h-6"  src="./star.png" alt="" />
-                     <img  className="w-6 h-6" src="./star.png" alt="" />
-                     <img  className="w-6 h-6" src="./star.png" alt="" />
-                     <img  className="w-6 h-6" src="./star2.png" alt="" />
-                     <img  className="w-6 h-6" src="./star2.png" alt="" />
-                     <p> <span className="font-bold">3.0</span>  (654 reviews)</p>
+                      <img className="w-6 h-6" src="./star.png" alt="" />
+                      <img className="w-6 h-6" src="./star.png" alt="" />
+                      <img className="w-6 h-6" src="./star.png" alt="" />
+                      <img className="w-6 h-6" src="./star2.png" alt="" />
+                      <img className="w-6 h-6" src="./star2.png" alt="" />
+                      <p>
+                        {" "}
+                        <span className="font-bold">3.0</span> (654 reviews)
+                      </p>
                     </div>
-                    
                   </div>
                 </div>
                 {/* part-4 */}
@@ -115,20 +129,24 @@ function Map() {
                     <img className="w-fit  " src="./mp4.png" alt="" />
                   </div>
                   <div className="">
-                    <h2 className="text-[#232323] text-xl  md:text-3xl font-bold py-2 ">Lokma</h2>
+                    <h2 className="text-[#232323] text-xl  md:text-3xl font-bold py-2 ">
+                      Lokma
+                    </h2>
                     <p className="mb-3 text-[#8F8F8F]">
                       The lorem ipsum is, in printing, a series of meaningless
                       words used temporarily to calibrate a layout.
                     </p>
                     <div className=" flex gap-2 ">
-                     <img  className="w-6 h-6"  src="./star.png" alt="" />
-                     <img  className="w-6 h-6" src="./star.png" alt="" />
-                     <img  className="w-6 h-6" src="./star.png" alt="" />
-                     <img  className="w-6 h-6" src="./star.png" alt="" />
-                     <img  className="w-6 h-6" src="./star3.png" alt="" />
-                     <p> <span className="font-bold">4.5</span>  (654 reviews)</p>
+                      <img className="w-6 h-6" src="./star.png" alt="" />
+                      <img className="w-6 h-6" src="./star.png" alt="" />
+                      <img className="w-6 h-6" src="./star.png" alt="" />
+                      <img className="w-6 h-6" src="./star.png" alt="" />
+                      <img className="w-6 h-6" src="./star3.png" alt="" />
+                      <p>
+                        {" "}
+                        <span className="font-bold">4.5</span> (654 reviews)
+                      </p>
                     </div>
-                    
                   </div>
                 </div>
                 {/* part-5 */}
@@ -137,20 +155,24 @@ function Map() {
                     <img className="w-fit  " src="./mp5.png" alt="" />
                   </div>
                   <div className="">
-                    <h2 className="text-[#232323] text-xl  md:text-3xl font-bold py-2 ">Starbelly</h2>
+                    <h2 className="text-[#232323] text-xl  md:text-3xl font-bold py-2 ">
+                      Starbelly
+                    </h2>
                     <p className="mb-3 text-[#8F8F8F]">
                       The lorem ipsum is, in printing, a series of meaningless
                       words used temporarily to calibrate a layout.
                     </p>
                     <div className=" flex gap-2 ">
-                     <img  className="w-6 h-6"  src="./star.png" alt="" />
-                     <img  className="w-6 h-6" src="./star.png" alt="" />
-                     <img  className="w-6 h-6" src="./star.png" alt="" />
-                     <img  className="w-6 h-6" src="./star.png" alt="" />
-                     <img  className="w-6 h-6" src="./star3.png" alt="" />
-                     <p> <span className="font-bold">4.5</span>  (654 reviews)</p>
+                      <img className="w-6 h-6" src="./star.png" alt="" />
+                      <img className="w-6 h-6" src="./star.png" alt="" />
+                      <img className="w-6 h-6" src="./star.png" alt="" />
+                      <img className="w-6 h-6" src="./star.png" alt="" />
+                      <img className="w-6 h-6" src="./star3.png" alt="" />
+                      <p>
+                        {" "}
+                        <span className="font-bold">4.5</span> (654 reviews)
+                      </p>
                     </div>
-                    
                   </div>
                 </div>
                 {/* part-6 */}
@@ -159,20 +181,24 @@ function Map() {
                     <img className="w-fit  " src="./mp6.png" alt="" />
                   </div>
                   <div className="">
-                    <h2 className="text-[#232323] text-xl  md:text-3xl font-bold py-2 ">The melt</h2>
+                    <h2 className="text-[#232323] text-xl  md:text-3xl font-bold py-2 ">
+                      The melt
+                    </h2>
                     <p className="mb-3 text-[#8F8F8F]">
                       The lorem ipsum is, in printing, a series of meaningless
                       words used temporarily to calibrate a layout.
                     </p>
                     <div className=" flex gap-2 ">
-                     <img  className="w-6 h-6"  src="./star.png" alt="" />
-                     <img  className="w-6 h-6" src="./star.png" alt="" />
-                     <img  className="w-6 h-6" src="./star.png" alt="" />
-                     <img  className="w-6 h-6" src="./star.png" alt="" />
-                     <img  className="w-6 h-6" src="./star3.png" alt="" />
-                     <p> <span className="font-bold">4.5</span>  (654 reviews)</p>
+                      <img className="w-6 h-6" src="./star.png" alt="" />
+                      <img className="w-6 h-6" src="./star.png" alt="" />
+                      <img className="w-6 h-6" src="./star.png" alt="" />
+                      <img className="w-6 h-6" src="./star.png" alt="" />
+                      <img className="w-6 h-6" src="./star3.png" alt="" />
+                      <p>
+                        {" "}
+                        <span className="font-bold">4.5</span> (654 reviews)
+                      </p>
                     </div>
-                    
                   </div>
                 </div>
                 {/* part-7 */}
@@ -181,23 +207,29 @@ function Map() {
                     <img className="w-fit  " src="./mp7.png" alt="" />
                   </div>
                   <div className="">
-                    <h2 className="text-[#232323] text-xl  md:text-3xl font-bold py-2 ">Aribia Night</h2>
+                    <h2 className="text-[#232323] text-xl  md:text-3xl font-bold py-2 ">
+                      Aribia Night
+                    </h2>
                     <p className="mb-3 text-[#8F8F8F]">
                       The lorem ipsum is, in printing, a series of meaningless
                       words used temporarily to calibrate a layout.
                     </p>
                     <div className=" flex gap-2 ">
-                     <img  className="w-6 h-6"  src="./star.png" alt="" />
-                     <img  className="w-6 h-6" src="./star.png" alt="" />
-                     <img  className="w-6 h-6" src="./star.png" alt="" />
-                     <img  className="w-6 h-6" src="./star.png" alt="" />
-                     <img  className="w-6 h-6" src="./star3.png" alt="" />
-                     <p> <span className="font-bold">4.5</span>  (654 reviews)</p>
+                      <img className="w-6 h-6" src="./star.png" alt="" />
+                      <img className="w-6 h-6" src="./star.png" alt="" />
+                      <img className="w-6 h-6" src="./star.png" alt="" />
+                      <img className="w-6 h-6" src="./star.png" alt="" />
+                      <img className="w-6 h-6" src="./star3.png" alt="" />
+                      <p>
+                        {" "}
+                        <span className="font-bold">4.5</span> (654 reviews)
+                      </p>
                     </div>
-                    
                   </div>
                 </div>
-                <Button color="primary" className="md:ml-20 mb-10">Show more</Button>
+                <Button color="primary" className="md:ml-20 mb-10">
+                  Show more
+                </Button>
               </div>
             </div>
           </div>

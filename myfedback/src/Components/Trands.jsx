@@ -31,7 +31,6 @@ function Trends() {
       </h1>
       {/* part-1 */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mt-5 p-4 ">
-
         <div className="w-fit  bg-white rounded-3xl  ">
           <img className="w-full mx-auto" src="./trand1.png" alt="" />
           <h2 className="text-md lg:text-xl font-bold  text-start leading-tight py-2 mb-2 ">
@@ -58,7 +57,7 @@ function Trends() {
         <div className="w-fit  bg-white rounded-3xl  ">
           <img className="w-full mx-auto" src="./trend2.png" alt="" />
           <h2 className="text-md lg:text-xl font-bold lg:w-[50%] text-start leading-tight py-2 mb-2 ">
-          Little Shucker
+            Little Shucker
           </h2>
           <p className=" text-gray-700 w-full text-xl text-justify  mb-2 ">
             The lorem ipsum is, in printing, a series of meaningless words used
@@ -81,7 +80,7 @@ function Trends() {
         <div className="w-fit  bg-white rounded-3xl  ">
           <img className="w-full mx-auto" src="./trend3.png" alt="" />
           <h2 className="text-md lg:text-xl font-bold  text-start leading-tight py-2 mb-2 ">
-          Marafuku Ramen
+            Marafuku Ramen
           </h2>
           <p className=" text-gray-700 w-full text-xl text-justify  mb-2 ">
             The lorem ipsum is, in printing, a series of meaningless words used
@@ -123,16 +122,13 @@ function Trends() {
             </div>
           </div>
         </div>
-
-
       </div>
       {/* part-2 */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mt-5 p-4 ">
-
         <div className="w-fit  bg-white rounded-3xl  ">
           <img className="w-full mx-auto" src="./trend5.png" alt="" />
           <h2 className="text-md lg:text-xl font-bold  text-start leading-tight py-2 mb-2 ">
-          Arabia Nights
+            Arabia Nights
           </h2>
           <p className=" text-gray-700 w-full text-xl text-justify  mb-2 ">
             The lorem ipsum is, in printing, a series of meaningless words used
@@ -155,7 +151,7 @@ function Trends() {
         <div className="w-fit  bg-white rounded-3xl  ">
           <img className="w-full mx-auto" src="./trend6.png" alt="" />
           <h2 className="text-md lg:text-xl font-bold lg:w-[50%] text-start leading-tight py-2 mb-2 ">
-          Lokma
+            Lokma
           </h2>
           <p className=" text-gray-700 w-full text-xl text-justify  mb-2 ">
             The lorem ipsum is, in printing, a series of meaningless words used
@@ -178,7 +174,7 @@ function Trends() {
         <div className="w-fit  bg-white rounded-3xl  ">
           <img className="w-full mx-auto" src="./trend7.png" alt="" />
           <h2 className="text-md lg:text-xl font-bold  text-start leading-tight py-2 mb-2 ">
-          The sung
+            The sung
           </h2>
           <p className=" text-gray-700 w-full text-xl text-justify  mb-2 ">
             The lorem ipsum is, in printing, a series of meaningless words used
@@ -220,11 +216,9 @@ function Trends() {
             </div>
           </div>
         </div>
-
       </div>
       {/* part-3 */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mt-5 p-4 ">
-
         <div className="w-fit  bg-white rounded-3xl  ">
           <img className="w-full mx-auto" src="./trend9.png" alt="" />
           <h2 className="text-md lg:text-xl font-bold  text-start leading-tight py-2 mb-2 ">
@@ -251,7 +245,7 @@ function Trends() {
         <div className="w-fit  bg-white rounded-3xl  ">
           <img className="w-full mx-auto" src="./trend10.png" alt="" />
           <h2 className="text-md lg:text-xl font-bold lg:w-[50%] text-start leading-tight py-2 mb-2 ">
-          Ngally
+            Ngally
           </h2>
           <p className=" text-gray-700 w-full text-xl text-justify  mb-2 ">
             The lorem ipsum is, in printing, a series of meaningless words used
@@ -274,7 +268,7 @@ function Trends() {
         <div className="w-fit  bg-white rounded-3xl  ">
           <img className="w-full mx-auto" src="./trend11.png" alt="" />
           <h2 className="text-md lg:text-xl font-bold  text-start leading-tight py-2 mb-2 ">
-          Digonal
+            Digonal
           </h2>
           <p className=" text-gray-700 w-full text-xl text-justify  mb-2 ">
             The lorem ipsum is, in printing, a series of meaningless words used
@@ -316,8 +310,6 @@ function Trends() {
             </div>
           </div>
         </div>
-
-
       </div>
     </section>
   );
