@@ -92,7 +92,7 @@ function Activities() {
             temporarily to calibrate a layout.
           </p>
 
-          <div className="flex gap-2 mt-3">
+          <div className="flex flex-wrap gap-2 mt-3 aspect-auto">
             <img src="./ac7.png" alt="" />
             <img src="./ac8.png" alt="" />
             <img src="./ac9.png" alt="" />
