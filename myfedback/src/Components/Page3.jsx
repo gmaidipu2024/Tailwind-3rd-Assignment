@@ -12,13 +12,38 @@ function Page3() {
         <MyNav />
 
         {/* 3rd part */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mx-auto py-4">
           <div>
           <h2 className="text-[#1E1E1E] font-bold text-2xl">More informations</h2>
             <div>
-              <div className="flex ">
-                <img src="./menu.png" alt="" />
-                <p>See the menu</p>
+              <div className="flex gap-3 py-3 ">
+                <img className="" src="./menu.png" alt="" />
+                <p className="underline">See the menu</p>
+              </div>
+
+              <div className="flex gap-3 py-3 ">
+                <img className="" src="./phone.png" alt="" />
+                <p className="underline">+847 87 37 29 01</p>
+              </div>
+
+              <div className="flex gap-3 py-3 ">
+                <img className="" src="./locat.png" alt="" />
+                <p className="underline">Singapour, Bishan</p>
+              </div>
+
+              <div className="flex gap-3 py-3 ">
+                <img className="" src="./clock.png" alt="" />
+                <p className="underline">7j/7, 08:00 - 22:00</p>
+              </div>
+
+              <div className="flex gap-3 py-3 ">
+                <img className="" src="./book.png" alt="" />
+                <p className="underline">www.bellaitalia.com</p>
+              </div>
+
+              <div className="flex gap-3 py-3 ">
+                <img className="" src="./social.png" alt="" />
+                
               </div>
             </div>
           </div>
