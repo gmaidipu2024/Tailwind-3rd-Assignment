@@ -17,15 +17,15 @@ function App() {
 
   return (
     <>
-    {/* <MyNav/>
+    <MyNav/>
     <Items/>
     <Carousel/>
     <Trends/>
     <Discover/>
     <Activities/>
-    <Footer/> */}
+    <Footer/>
     
-    <Page3/>
+   
     
 
   
