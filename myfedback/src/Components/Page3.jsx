@@ -10,9 +10,9 @@ function Page3() {
     <section className="container mx-auto">
       <div>
         <MyNav />
-        
-         {/* 2nd part */}
-        <div className="container mx-auto px-4">
+
+         {/* 1st part */}
+         <div className="container mx-auto px-4 ">
           <hr />
           <div>
             <h3 className=" text-[#232323] underline py-6 font-semibold">
@@ -60,6 +60,28 @@ function Page3() {
             <img src="./bella.png" alt="" />
           </div>
         </div>
+
+        {/* 2nd part */}
+        <div className=" px-4 mt-24 ">
+          <div className="md: ms-10">
+          <h2 className="text-xl md:text-3xl text-[#1E1E1E] font-bold mb-3">Discover our magnificent place in photos</h2>
+          <p className="text-[#5E5E5E] md:w-[50%]">The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.The lorem ipsum is, in printing.</p>
+          </div>
+          
+        <div className="flex justify-center items-center gap-3 mx-auto py-6 ">
+          <div>
+            <img src="./dis1.png" alt="" />
+          </div>
+          <div >
+            <img className="mb-3" src="./dis2.png" alt="" />
+            <img src="./dis3.png" alt="" />
+          </div>
+          <div >
+            <img className="mb-3" src="./dis4.png" alt="" />
+            <img src="./dis5.png" alt="" />
+          </div>
+        </div>
+        </div>
         {/* 3rd part */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mx-auto py-4 mt-20 mb-8">
           <div className="ms-10">
@@ -101,7 +123,7 @@ function Page3() {
             <img src="./smlmp.png" alt="" />
           </div>
         </div>
-
+        
         {/* 4th part */}
         <div>
           <hr />
@@ -327,6 +349,7 @@ function Page3() {
             </p>
           </div>
         </div>
+
         {/* 6th part */}
         <div>
           <Button color="primary" className=" flex mx-auto mb-10 text-md  ">
@@ -416,6 +439,7 @@ function Page3() {
             </div>
           </div>
         </div>
+
         <Footer />
       </div>
     </section>
