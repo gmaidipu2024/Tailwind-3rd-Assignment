@@ -1,6 +1,10 @@
 /** @type {import('tailwindcss').Config} */
+import { defineConfig } from 'tailwindcss'; 
+import typography from '@tailwindcss/typography'; 
+import forms from '@tailwindcss/forms';
 const {nextui} = require("@nextui-org/react");
-export default {
+export default defineConfig( {
+  plugins: [typography, forms],
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
@@ -12,5 +16,5 @@ export default {
   },
   darkMode: "class",
   plugins: [nextui()],
-}
+});
 
