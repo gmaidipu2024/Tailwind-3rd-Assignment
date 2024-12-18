@@ -10,11 +10,62 @@ function Page3() {
     <section className="container mx-auto">
       <div>
         <MyNav />
-
-        {/* 3rd part */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mx-auto py-4">
+        
+         {/* 2nd part */}
+        <div className="container mx-auto px-4">
+          <hr />
           <div>
-          <h2 className="text-[#1E1E1E] font-bold text-2xl">More informations</h2>
+            <h3 className=" text-[#232323] underline py-6 font-semibold">
+              Home / BellaItalia
+            </h3>
+          </div>
+          <div className="bg-[url(../heropic.png)] bg-no-repeat overflow-hidden relative bg-cover w-full px-4">
+            <div className=" w-full md:w-[50%] md:ms-16">
+              <div className="flex items-center gap-2 mt-4 mb-4">
+                <div>
+                  <h2 className="text-white text-xl md:text-3xl font-bold">
+                    Bella Italia
+                  </h2>
+                </div>
+              </div>
+
+              <div className="flex items-center gap-2">
+                <img src="./star.png" alt="" />
+                <img src="./star.png" alt="" />
+                <img src="./star.png" alt="" />
+                <img src="./star.png" alt="" />
+                <img src="./star.png" alt="" />
+                <p>5.0 (834 reviews)</p>
+              </div>
+              <p className="text-white md:w-[80%] ">
+                The lorem ipsum is, in printing, a series of meaningless words
+                used temporarily to calibrate a layout.
+              </p>
+              <p className="py-3 text-white md:w-[80%] mb-10">
+                The lorem ipsum is, in printing, a series of meaningless words
+                used temporarily to calibrate a layout.
+              </p>
+
+              <div className="flex gap-3 py-3 text-white ">
+                <img className="w-5" src="./whitel.png" alt="" />
+                <p className="underline">Singapour, Bishan-Ang Mo Kio Park </p>
+              </div>
+              <div className="flex gap-3 py-3 text-white mb-20 ">
+                <img className="w-5" src="./whitec.png" alt="" />
+                <p className="underline">7j/7, 08:00 - 22:00</p>
+              </div>
+            </div>
+          </div>
+          <div className=" absolute  md:ms-[35%] md:mt-[-4%] ms-[30%] mt-[-16%] ">
+            <img src="./bella.png" alt="" />
+          </div>
+        </div>
+        {/* 3rd part */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mx-auto py-4 mt-20 mb-8">
+          <div className="ms-10">
+            <h2 className="text-[#1E1E1E] font-bold text-2xl">
+              More informations
+            </h2>
             <div>
               <div className="flex gap-3 py-3 ">
                 <img className="" src="./menu.png" alt="" />
@@ -43,7 +94,6 @@ function Page3() {
 
               <div className="flex gap-3 py-3 ">
                 <img className="" src="./social.png" alt="" />
-                
               </div>
             </div>
           </div>
@@ -54,37 +104,37 @@ function Page3() {
 
         {/* 4th part */}
         <div>
-          <hr/>
-            <div className=" py-5 mb-6">
-              <div className="flex flex-wrap items-start gap-5 mt-4 mb-4 px-3">
-                <img className="w-15 h-15" src="./bgstar.png" alt="" />
-                <div>
-                  <h2 className="text-[#232323] text-xl md:text-2xl font-bold">
-                    Overall rating
-                  </h2>
-                  <p> 834 Reviews </p>
-                  <div className="flex items-center gap-2 py-2">
-                    <img src="./star.png" alt="" />
-                    <img src="./star.png" alt="" />
-                    <img src="./star.png" alt="" />
-                    <img src="./star.png" alt="" />
-                    <img src="./star.png" alt="" />
-                    <p>(28.11.2024)</p>
-                  </div>
-                </div>
-                <div className="hidden md:flex flex-col ml-10">
-                  <span> 5 stars </span>
-                  <span> 0 stars </span>
-                  <span> 0 stars </span>
-                  <span> 0 stars </span>
-                  <span> 0 stars </span>
-                </div>
-                <div>
-                  <img src="./rating.png" alt="" />
+          <hr />
+          <div className=" py-5 mb-6">
+            <div className="flex flex-wrap items-start gap-5 mt-4 mb-4 px-3">
+              <img className="w-15 h-15" src="./bgstar.png" alt="" />
+              <div>
+                <h2 className="text-[#232323] text-xl md:text-2xl font-bold">
+                  Overall rating
+                </h2>
+                <p> 834 Reviews </p>
+                <div className="flex items-center gap-2 py-2">
+                  <img src="./star.png" alt="" />
+                  <img src="./star.png" alt="" />
+                  <img src="./star.png" alt="" />
+                  <img src="./star.png" alt="" />
+                  <img src="./star.png" alt="" />
+                  <p>(28.11.2024)</p>
                 </div>
               </div>
+              <div className="hidden md:flex flex-col ml-10">
+                <span> 5 stars </span>
+                <span> 0 stars </span>
+                <span> 0 stars </span>
+                <span> 0 stars </span>
+                <span> 0 stars </span>
+              </div>
+              <div>
+                <img src="./rating.png" alt="" />
+              </div>
             </div>
-          <hr/>
+          </div>
+          <hr />
         </div>
 
         {/* 5th part */}
